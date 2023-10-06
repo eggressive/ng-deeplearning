@@ -2,6 +2,10 @@
 # Also see: https://github.com/gitpod-io/workspace-images/issues/1071
 image: gitpod/workspace-python-3.11@sha256:88e108b93dde90bf4fbe14292549ac63f058c67cf89b835c56f180b4aed54a54
 
+tasks:
+  - init: poetry install # pip install -r requirements.txt
+    command: poetry run python3 -m python_hello_world
+
 vscode:
   extensions:
     - ms-python.python
