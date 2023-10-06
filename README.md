@@ -12,9 +12,19 @@ Click the above "Open in Gitpod" button to start a new workspace. Once you're re
 
 ## Pair Programming with a Large Language Model
 
-### First prebuild
+### Things needed
 
-Start your first workspace with a prebuild by prefixing [`https://gitpod.io#prebuild/`](https://gitpod.io#prebuild/) to the URL of the repository.
-The revised URL is: [`https://gitpod.io/#prebuild/https://github.com/eggressive/ng-deeplearning`](https://gitpod.io/#prebuild/https://github.com/eggressive/)ng-deeplearning
+#### API key
 
-Gitpod displays the prebuild progress status by running the init commands in the .gitpod.yml file before you even start a workspace. Later, when you create a new workspace on a branch, or pull/merge request the workspace loads much faster, because all dependencies are already downloaded and the code is compiled. For more information see [prebuilds](https://www.gitpod.io/docs/configure/projects/prebuilds).
+
+
+#### Generative AI libraries
+
+[Google Generative AI Python Client](https://github.com/google/generative-ai-python)
+
+```python
+import google.generativeai as palm
+palm.configure(api_key=os.environ["PALM_API_KEY"]) # replace with your API key
+```
+
+#### Basic Python knowledge

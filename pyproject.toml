@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python_hello_world"
+name = "python_space"
 version = "0.1.0"
 description = ""
 authors = ["AXON <axonasif@gmail.com>"]
@@ -10,7 +10,7 @@ packages = [{include = "main"}]
 python = "^3.11"
 art = "^6.0"
 requests = "^2.31.0"
-periodictable = "^1.6.1"
+google.generativeai.models = "^0.2.0"
 
 [build-system]
 requires = ["poetry-core"]
