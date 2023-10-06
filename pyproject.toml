@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["AXON <axonasif@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_hello_world"}]
+packages = [{include = "main"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

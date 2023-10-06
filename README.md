@@ -14,7 +14,7 @@ Click the above "Open in Gitpod" button to start a new workspace. Once you're re
 
 ### First prebuild
 
-Start your first workspace with a prebuild by prefixing https://gitpod.io#prebuild/ to the URL of the repository.
-The revised URL is: https://gitpod.io/#prebuild/https://github.com/eggressive/ng-deeplearning
+Start your first workspace with a prebuild by prefixing [`https://gitpod.io#prebuild/`](https://gitpod.io#prebuild/) to the URL of the repository.
+The revised URL is: [`https://gitpod.io/#prebuild/https://github.com/eggressive/ng-deeplearning`](https://gitpod.io/#prebuild/https://github.com/eggressive/)ng-deeplearning
 
 Gitpod displays the prebuild progress status by running the init commands in the .gitpod.yml file before you even start a workspace. Later, when you create a new workspace on a branch, or pull/merge request the workspace loads much faster, because all dependencies are already downloaded and the code is compiled. For more information see [prebuilds](https://www.gitpod.io/docs/configure/projects/prebuilds).

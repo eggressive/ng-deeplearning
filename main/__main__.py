@@ -1,3 +1,4 @@
+# pyright: reportMissingImports=none
 from art import tprint
 import periodictable
 
