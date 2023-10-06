@@ -1,12 +1,12 @@
-# A Python Flask template on Gitpod
+# Space for Pair Programming with a Large Language Model
 
-This is a [Python Flask](https://flask.palletsprojects.com/) template generator configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
+This is a spoace for [Pair Programming with a Large Language Model](https://learn.deeplearning.ai/pair-programming-llm/) configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-python-flask)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/eggressive/ng-deeplearning/)
 
 ## Get Started With Your Own Project
 
