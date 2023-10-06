@@ -1,19 +1,20 @@
-# A Python Flask template on Gitpod
+# Gitpod Space for Pair Programming with a Large Language Model
 
-This is a [Python Flask](https://flask.palletsprojects.com/) template generator configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
+This is a spoace for [Pair Programming with a Large Language Model](https://learn.deeplearning.ai/pair-programming-llm/) configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-python-flask)
-
-## Get Started With Your Own Project
-
-### A new project
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/eggressive/ng-deeplearning/)
 
 Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
 
-### An existing project
+## Pair Programming with a Large Language Model
 
-Copy and commit the [`.gitpod.yml`](./.gitpod.yml) to your existing project to have the same configuration of this template. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
+### First prebuild
+
+Start your first workspace with a prebuild by prefixing [`https://gitpod.io#prebuild/`](https://gitpod.io#prebuild/) to the URL of the repository.
+The revised URL is: [`https://gitpod.io/#prebuild/https://github.com/eggressive/ng-deeplearning`](https://gitpod.io/#prebuild/https://github.com/eggressive/)ng-deeplearning
+
+Gitpod displays the prebuild progress status by running the init commands in the .gitpod.yml file before you even start a workspace. Later, when you create a new workspace on a branch, or pull/merge request the workspace loads much faster, because all dependencies are already downloaded and the code is compiled. For more information see [prebuilds](https://www.gitpod.io/docs/configure/projects/prebuilds).
